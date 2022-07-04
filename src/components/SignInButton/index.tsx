@@ -9,8 +9,6 @@ import styles from './styles.module.scss'
 export const SignInButton: React.FC = () => {
     const { data }  = useSession ();
 
-    console.log('session', data)
-
     return data != null ? (
         <button
             className={styles.signInButton}
