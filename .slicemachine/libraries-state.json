@@ -1,0 +1,204 @@
+{
+  "slices": {
+    "components": {
+      "conteudo": {
+        "library": "slices",
+        "id": "conteudo",
+        "name": "Conteudo",
+        "description": "Conteudo",
+        "model": {
+          "id": "conteudo",
+          "type": "SharedSlice",
+          "name": "Conteudo",
+          "description": "Conteudo",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Conteudo",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "conteudo",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Repurpose next-generation interfaces",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Aliquip do mollit ex in do et proident ut sint amet officia ad cupidatat. Incididunt fugiat irure ut do pariatur nostrud excepteur in laboris culpa proident dolor amet sint sit. Non non quis labore aliquip deserunt voluptate laborum deserunt quis dolore reprehenderit.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\bruno\\ignews\\.slicemachine\\assets\\slices\\Conteudo\\default\\preview.png",
+            "width": 800,
+            "height": 81
+          }
+        }
+      },
+      "terminal": {
+        "library": "slices",
+        "id": "terminal",
+        "name": "Terminal",
+        "description": "Terminal",
+        "model": {
+          "id": "terminal",
+          "type": "SharedSlice",
+          "name": "Terminal",
+          "description": "Terminal",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Terminal",
+              "primary": {},
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "terminal",
+            "items": [],
+            "primary": {}
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\bruno\\ignews\\.slicemachine\\assets\\slices\\Terminal\\default\\preview.png",
+            "width": 800,
+            "height": 45
+          }
+        }
+      },
+      "teste": {
+        "library": "slices",
+        "id": "teste",
+        "name": "Teste",
+        "description": "Teste",
+        "model": {
+          "id": "teste",
+          "type": "SharedSlice",
+          "name": "Teste",
+          "description": "Teste",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Teste",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading1"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "descricao teste",
+                    "placeholder": "A nice description of your feature",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "teste",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Mesh innovative bandwidth",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Consequat labore in laboris est nulla exercitation anim mollit aliqua aliquip labore aliquip minim. Culpa enim proident minim officia cillum velit nulla elit. Elit enim non exercitation ex.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\bruno\\ignews\\.slicemachine\\assets\\slices\\Teste\\default\\preview.png",
+            "width": 800,
+            "height": 81
+          }
+        }
+      }
+    }
+  }
+}
